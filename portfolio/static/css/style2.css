@@ -1,0 +1,25 @@
+body{
+    margin: auto(0);
+    display:block;
+}
+
+.my_container {
+    display:flexbox;
+
+    grid-auto-columns: minmax(2);
+    align-items: baseline;
+    background-color: rgb(124, 235, 109);
+    height: 75px;
+    width: 150px;
+}
+
+.item{
+    text-align: center;
+    margin: 10px;
+}
+
+.items{
+    grid-row-start: auto(2);
+    text-align: center;
+    padding: 20px;
+}
